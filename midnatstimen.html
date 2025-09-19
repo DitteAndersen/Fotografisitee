@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="da">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="noindex" />
+    <title>Bedste venner</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&family=Average+Sans&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap"
+      rel="stylesheet"
+    />
+
+  <link rel="stylesheet" href="/general.css" />
+    <link rel="stylesheet" href="/layout.css" />
+
+    <style>
+      /* Smal titelbjælke i #263311 */
+      .title-bar {
+        width: 100%;
+        background: #263311;
+        color: #fff;
+      }
+      .title-inner {
+        max-width: 1200px;
+        margin-inline: auto;
+        padding: clamp(8px, 1.6vw, 14px) clamp(16px, 3vw, 24px);
+        display: flex;
+        align-items: center;
+        gap: 0.75rem;
+        justify-content: flex-start;
+      }
+      .back-link {
+        text-decoration: none;
+        color: #fff;
+        font-size: 0.9rem;
+        padding: 0.3rem 0.55rem;
+        border: 1px solid rgba(255, 255, 255, 0.25);
+        border-radius: 6px;
+        background: transparent;
+        transition: background 0.2s ease, border-color 0.2s ease;
+      }
+      .back-link:hover {
+        background: rgba(255, 255, 255, 0.1);
+        border-color: rgba(255, 255, 255, 0.4);
+      }
+
+      /* Overskrift under bjælken – samme farve */
+      .photo-title {
+        margin: clamp(14px, 2.4vw, 22px) 0 8px;
+        font-weight: 700;
+        font-size: clamp(1.4rem, 3vw, 2rem);
+        color: #263311;
+      }
+
+      /* Billedet – ingen ramme */
+      .detail-photo {
+        display: block;
+        width: 100%;
+        max-width: 500px;
+        height: auto;
+        margin: 0; /* ingen ekstra margin */
+        border: none !important; /* fjern evt. global border */
+        border-radius: 0 !important; /* ingen afrunding */
+        box-shadow: none !important; /* ingen skygge */
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Smal bjælke med Galleri-link til venstre -->
+    <header class="title-bar">
+      <div class="title-inner">
+        <a class="back-link" href="index.html">← Galleri</a>
+      </div>
+    </header>
+
+       <title>Midnatstimen</title>
+  </head>
+  <body>
+    <main class="page">
+      <div class="grid_1-1">
+        <section>
+          <h1>Midnatstimen</h1>
+        </section>
+      </div>
+      <img
+        class="detail-photo"
+        src="Picflow Images Sep 18/midtnatstimen.webp"
+        alt="midnatstimen"
+      />
+    </main>
+  </body>
+</html>
